@@ -1,0 +1,31 @@
+{
+  "name": "rnz-frontend-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|mdx|graphql|vue)\"",
+    "lint": "eslint src",
+    "start": "eslint src && parcel build *.html && parcel index.html",
+    "welcome": "echo Welcome to the RNZ front-end code test. You got this!"
+  },
+  "keywords": [],
+  "author": "RNZ",
+  "license": "ISC",
+  "dependencies": {
+    "domify": "1.4.0",
+    "domready": "^1.0.8",
+    "viewloader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.16.4",
+    "sass": "^1.17.3",
+    "sinon": "^7.3.1"
+  }
+}

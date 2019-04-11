@@ -1,0 +1,30 @@
+html {
+  background-color: #FFFFFF;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #455A64;
+  font-size: 1.6rem;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+button:focus {
+  outline: 1px currentColor dotted;
+}
+
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RNZ front-end test</title>
+    <link rel="stylesheet" type="text/css" href="./src/index.css">
+    <script src="./src/index.js"></script>
+  </head>
+  <body>
+    <div class="image-grid" data-view-image-grid='{"slideSelector": ".gallery-slides img"}'>
+      <div class="image-grid__item">
+        <img class="image-grid__image" src="/src/components/images/cat-1-thumbnail.jpg" alt="Cat 1" />
+        <button>View</button>
+      </div>
+      <div class="image-grid__item">
+        <img src="/src/components/images/cat-2-thumbnail.jpg" alt="Cat 2" />
+        <button>View</button>
+      </div>
+      <div class="image-grid__item">
+        <img src="/src/components/images/cat-3-thumbnail.jpg" alt="Cat 3" />
+        <button>View</button>
+      </div>
+      <div class="gallery-slides hidden">
+        <img src="/src/components/images/cat-1.jpg">
+        <img src="/src/components/images/cat-2.jpg">
+        <img src="/src/components/images/cat-3.jpg">
+      </div>
+    </div>
+
+  </body>
+</html>
