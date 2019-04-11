@@ -74,7 +74,7 @@ We have two designs for an image grid and modal image gallery prototype. Load `/
 #### Please:
 
 - Install the dependencies and start the dev server
-— Implement the `design-mock-1` in HTML and CSS for the `index.html`
+- Implement the `design-mock-1` in HTML and CSS for the `index.html`
 - Commit your code changes to the project
 
 #### We're looking for:
