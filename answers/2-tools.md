@@ -4,7 +4,7 @@
 
 2.3. What are the main dot files (e.g. `.babelrc`) and what purpose do these serve?
 
-2.4. Describe the tool used to statically analyse code base. What is this tool's
+2.4. Describe the tool used to statically analyse code base. What is this tool's purpose?
 
 2.5. Describe how the tools are executed, and what would be a regular set of commands a developer would run.
 
