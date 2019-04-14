@@ -56,7 +56,7 @@ We need to understand the last change to the codebase.
 
 #### Tasks:
 
-- Investigate the latest set of code changes
+- Investigate the commit with the hash `3d0ba63437473995b55ed919062cb8df33b2bcab`
 - Update the file `answers/3-code-review.md` with responses to the questions you'll find there
 
 #### We're looking for:
