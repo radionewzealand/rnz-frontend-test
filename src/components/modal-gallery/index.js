@@ -12,7 +12,7 @@ function modalGallery(slides) {
     wrapper = domify('<div class="gallery-slider gallery-slider--closed"></div>');
     closeButton = createCloseButton();
 
-    // TODO: Implement initialising the modal gallery
+    // TODO: Implement initialising all the html elements of the modal gallery
 
     document.body.appendChild(wrapper);
     initialised = true;
