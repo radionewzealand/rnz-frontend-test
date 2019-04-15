@@ -77,8 +77,8 @@ function createSlide(slide) {
 }
 
 function wrapped(content) {
-  const wrapper = domify('<div class="gallery-slide"></div>');
-  const inner = domify('<div class="gallery-slide__inner"></div>');
+  const wrapper = domify(`<div class="gallery-slide"></div>`);
+  const inner = domify(`<div class="gallery-slide__inner"></div>`);
   inner.appendChild(content);
   wrapper.appendChild(inner);
   return wrapper;
