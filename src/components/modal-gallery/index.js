@@ -6,7 +6,6 @@ function modalGallery(slides) {
   let closeButton;
   let nextButton;
   let previousButton;
-  let index;
   let initialised = false;
 
   function init() {
@@ -24,7 +23,6 @@ function modalGallery(slides) {
     } else {
       document.body.appendChild(wrapper);
     }
-    index = index;
 
     // TODO: Implement opening the modal gallery to a specific index
   }
